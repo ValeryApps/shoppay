@@ -1,0 +1,37 @@
+$shadow-1:rgba(99,99,99,.2) 0px 2px 8px 0px;
+$blue-color:#2f82ff;
+$gray-color:#f8f8f8;
+$light-error-color:#fd010169;
+$error-color:#ed4437;
+.btn_primary{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+background: $blue-color;
+color: #fff;
+font-weight: 600;
+cursor: pointer;
+border-radius: 2px;
+width: 100%;
+padding: 3px 4px;
+}
+.btn_outlined{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+color: $blue-color;
+background: $gray-color;
+font-weight: 600;
+cursor: pointer;
+border-radius: 2px;
+width: 100%;
+padding: 3px 4px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
